@@ -22,6 +22,7 @@
   z-index: 999999;
   top: 20%;
   left: 30%;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .4);
 }
 .popup>span{
   position: absolute;
@@ -30,7 +31,6 @@
   right: 10%;
   bottom: 10%;
   color: #fff;
-  box-shadow: 0 0 45px rgba(0, 0, 0, .4);
   cursor: pointer;
   user-select: none;
 }
