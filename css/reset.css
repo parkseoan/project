@@ -1,0 +1,248 @@
+@charset "utf-8";
+@import url(./fonts.css);
+@import url(https://cdn.jsdelivr.net/npm/noto-sans-kr@0.1.1/styles.min.css);
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	line-height: 1.75;
+	font-family: 'Pretendard', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ====================================
+    ======= 전역변수 ======
+==================================== */
+
+:root {
+	--primary1: #022620;
+	--primary2: 
+	--primary3: #;
+	--secondary: #99553a;
+	--accent: #555555;
+	--text1: #ffffffcc;
+	--text2: #666666;
+	--text3: #3a3a3a;
+	--white: #fff;
+	--link: #99553a;
+	--col: 8.2rem;
+	--gu: 1rem;
+	--unit: calc(var(--col) + var(--gu));
+	--row: 2.8rem;
+	--n10: 10;
+	--n9: 9;
+	--n8: 8;
+	--n7: 7;
+	--n6: 6;
+	--n5: 5;
+	--n4: 4;
+	--n3: 3;
+	--n2: 2;
+	--n1: 1;
+	--unit10: calc(var(--unit) * var(--n10));
+	--unit9: calc(var(--unit) * var(--n9));
+	--unit8: calc(var(--unit) * var(--n8));
+	--unit7: calc(var(--unit) * var(--n7));
+	--unit6: calc(var(--unit) * var(--n6));
+	--unit5: calc(var(--unit) * var(--n5));
+	--unit4: calc(var(--unit) * var(--n4));
+	--unit3: calc(var(--unit) * var(--n3));
+	--unit2: calc(var(--unit) * var(--n2));
+	--unit1: calc(var(--unit) * var(--n1));
+}
+a {
+	text-decoration: none;
+	font-family: 'Noto Sans Korean', 'Arial', sans-serif;
+	color: var(--link);
+	font-size: 1.6rem;
+}
+body {
+	font-family: 'Noto-sans', 'Arial', serif;
+}
+/* ====================================
+    ======= global classes ======
+==================================== */
+
+.h1,
+h1 {
+	font-size: 6.2rem;
+	font-weight: 200;
+}
+.h2,
+h2 {
+	font-size: 3.2rem;
+	font-weight: 300;
+}
+.h3,
+h3 {
+	font-size: 2.6rem;
+	font-weight: 400;
+}
+
+.h4,
+h4 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.h5,
+h5 {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.h6,
+h6 {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+.text {
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.75;
+}
+.link {
+	font-size: 1.6rem;
+	font-size: 500;
+	text-decoration: underline;
+	color: #b99404;
+}
+.df {
+	display: flex;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
