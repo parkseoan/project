@@ -93,48 +93,6 @@ nav a {
 
 }
 
-.section1 {
-}
-
-.sec1_text{
-  width: calc(var(--unit) * 5);
-  height: 52rem;
-  background: var(--c2);
-  font-size: 3rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff;
-  padding-top: 5rem;
-  
-}
-.sec1_text>.text{
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 3rem;
-  font-size: 1.1rem;
-  
-}
-.sec1_text>.text2{
-  /* /* font-family: "Noto Sans KR", sans-serif;
-  font-weight: 700;
-  line-height: normal; */
-  width: 15.4rem;
-  height: 4.8rem;
-  font-size: 1.1rem;
-  padding-top: 5rem;
-  border-radius: 4rem;
-  border: 2px solid #fff; */
-  width: 18rem;
-  /* height: 4.8rem; */
-  line-height: 4.8rem;
-  border-radius: 4rem;
-  border: 2px solid #fff;
-  color: #fff;
-  text-align: center;
-}
 
 .sec1_img{
   width: calc(var(--unit) * 5);
@@ -147,15 +105,5 @@ nav a {
 
 
 
-.section2 {
-}
-.section3 {
-}
-.section4 {
-}
-.section5 {
-}
-.section6 {
-}
 footer {
 }
